@@ -5,7 +5,7 @@ import './Review.css';
 const Reviews = () => {
     const [review,setReview]=useState([]);
     useEffect(()=>{
-        fetch('review.json')
+        fetch('reviews.json')
         .then(res=>res.json())
         .then(data=>console.log(data));
     },[])
