@@ -21,7 +21,7 @@ const Home = () => {
             <Button variant="outline-primary">Taste coffee</Button>
             </div>
             <div className="image">
-                <img className='rounded' src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="#"></img>
+                <img className='rounded' src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
             </div>
             </div>
             <h1 className="text-success text-center mt-4 fw-bold">See customer Review</h1>
