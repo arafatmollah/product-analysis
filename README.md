@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 ### LiveSite Link
-<a href="https://product-analysis-arafat.netlify.app/" target="_blank>Product Analysis</a>
+<a href="https://product-analysis-arafat.netlify.app/" target="_blank> Product Analysis </a>
                                                                ## Things to doing this project
 ***
 
