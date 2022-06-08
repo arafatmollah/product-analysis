@@ -2,7 +2,9 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import useReviews from '../../hooks/useReviews';
 import ReviewCard from '../ReviewCard/ReviewCard';
+import { Link } from "react-router-dom";
 import './Home.css';
+
 const Home = () => {
     const [review,setReview]=useReviews([])
     return (
@@ -30,8 +32,7 @@ const Home = () => {
                      ></ReviewCard>)
                 }
             </div>
-            <div className="btn">
-            <Button variant="primary">See All review</Button>
+            <Button className="btn" variant="primary"><Link to="/reviews" className="text-light">See all Customer Review</Link></Button>
         </div>
         
         

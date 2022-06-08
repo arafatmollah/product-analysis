@@ -10,8 +10,10 @@
     }
   }
 
-.btn{
-    justify-content:center;
+.container .btn{
+  margin-top: 20px;
+  margin-left: 45%;
+  margin-bottom: 10px;
 }
 
 .image img{

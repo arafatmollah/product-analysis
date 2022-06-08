@@ -48,8 +48,8 @@ const Dashboard = () => {
                     <div>
                     <PieChart width={730} height={250}>
               <Pie data={data} dataKey="investment" fill="#82ca9d" monthKey="month" outerRadious={50} revenue="revenue" cx="50%" cy="50%" label></Pie>
-              <Pie data={data} Tooltip dataKey="revenue" fill="#8884d8" monthKey="month" innerRadious={60} outerRadius={80} revenue="revenue" cx="50%" cy="50%" label></Pie>
-                
+              <Pie data={data} dataKey="revenue" fill="#8884d8" monthKey="month" innerRadious={60} outerRadius={80} revenue="revenue" cx="50%" cy="50%" label></Pie>
+                <Tooltip></Tooltip>
             </PieChart>
                     </div>
             
