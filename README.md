@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 ### LiveSite Link
-## <a href="https://product-analysis-arafat.netlify.app/" target="_blank> Product Analysis </a>
-
+[Product Analysis](https://product-analysis-arafat.netlify.app/).
 > Use Bootstrap as a framework
 > Grid and Flexbox go Responsive
 > using Custom Hoo
