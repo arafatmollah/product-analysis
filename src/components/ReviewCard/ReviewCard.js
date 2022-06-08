@@ -1,9 +1,12 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import "./Reviewcard.css"
 
 const ReviewCard = (props) => {
     console.log(props.reviews)
-    const {name}=props.reviews;
+    const {name, describe}=props.reviews;
     return (
         <div>
             <Card style={{ width: '18rem' }}>
@@ -11,9 +14,13 @@ const ReviewCard = (props) => {
     <Card.Title>{name}</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">Reviews</Card.Subtitle>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      {describe}
     </Card.Text>
+    <FontAwesomeIcon className="icon" icon={faStar} />
+    <FontAwesomeIcon className="icon" icon={faStar} />
+    <FontAwesomeIcon className="icon" icon={faStar} />
+    <FontAwesomeIcon className="icon" icon={faStar} />
+    <FontAwesomeIcon className="icon" icon={faStar} />
   </Card.Body>
 </Card>
         </div>

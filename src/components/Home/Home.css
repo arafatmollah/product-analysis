@@ -1,8 +1,19 @@
-.container{
+.hero-section{
     display:flex;
     margin-top: 10px;
     align-items: center;
 }
+@media only screen and (max-width: 600px) {
+    .hero-section {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+.btn{
+    justify-content:center;
+}
+
 .image img{
     height: 500px;
     width:550px;

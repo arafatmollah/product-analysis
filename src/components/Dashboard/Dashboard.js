@@ -1,5 +1,7 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Pie, PieChart, XAxis, YAxis, Tooltip, ResponsiveContainer   } from 'recharts';
+import "./Dashboard.css"
+
 
 const Dashboard = () => {
     const data=[
@@ -42,14 +44,17 @@ const Dashboard = () => {
     ]
           
     return (
-        <div>
-                    <PieChart width={500} height={500}>
-              <Pie data={data} dataKey="investment" fill="#82ca9d" monthKey="month" outerRadious={70} revenue="revenue" cx="50%" cy="50%" label></Pie>
-              <Pie data={data} dataKey="revenue" fill="#8884d8" monthKey="month" outerRadius={80} revenue="revenue" cx="50%" cy="50%" label></Pie>
+        <div className="charts">
+                    <div>
+                    <PieChart width={730} height={250}>
+              <Pie data={data} dataKey="investment" fill="#82ca9d" monthKey="month" outerRadious={50} revenue="revenue" cx="50%" cy="50%" label></Pie>
+              <Pie data={data} Tooltip dataKey="revenue" fill="#8884d8" monthKey="month" innerRadious={60} outerRadius={80} revenue="revenue" cx="50%" cy="50%" label></Pie>
                 
             </PieChart>
+                    </div>
             
-            <BarChart height={500} width={500} data={data}>
+            <div>
+            <BarChart height={250} width={400} data={data}>
                     <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
                     <XAxis dataKey="month"></XAxis>
                     <YAxis></YAxis>
@@ -58,6 +63,7 @@ const Dashboard = () => {
                     <Bar dataKey='revenue' fill="#8884d8"></Bar>
                     <Bar dataKey="investment" fill="#82ca9d"></Bar>
                 </BarChart>
+            </div>
             
             
 
