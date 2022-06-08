@@ -1,11 +1,14 @@
 # Getting Started with Create React App
 ### LiveSite Link
 [Product Analysis](https://product-analysis-arafat.netlify.app/).
-> Use Bootstrap as a framework
-> Grid and Flexbox go Responsive
-> using Custom Hoo
-> Use Recharts fo Charts
-> Use React Router fr Routing.                                                                    
+ 
+<ol>
+  <li>Use Bootstrap as a framework</li>
+  <li>Grid and Flexbox go Responsive</li>
+  <li>Using Custom Hook</li>
+  <li>Use Recharts for Charts</li>
+  <li>Use React Router fr Routing.</li>
+</ol>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
